@@ -1,5 +1,5 @@
 # Transportation Pricing App
-This exercise uses Shiny to create an application that is intended to be used by a network provider that contracts work to several smaller transportation providers. The data used in this exercise has been created, and can be seen in both the global.R and server.R files. 
+This exercise uses Shiny to create an application that is intended to be used by a network provider that contracts work to several smaller transportation providers. The data used in this exercise has been created, and can be reviewed in both the global.R and server.R files. 
 
 Within the Shiny App is a linear model which provides a suggested transportation rate based on historical information. This response variable is calculated by the sum of the estimated fuel cost + hourly rate of driver + mileage surcharge. We then factor in a network fee for allowing the transportation provider to use the network provider's platform. This is calculated as a percentage of the predicted value, which is then deducted from the output of the linear model, and results in the final suggested transportation rate. 
 
